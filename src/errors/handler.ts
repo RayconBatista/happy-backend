@@ -1,6 +1,6 @@
 
 import { ErrorRequestHandler } from "express";
-import ValidationError from "yup";
+import { ValidationError } from "yup";
 
 interface ValidationErrors {
   [key: string]: string[];
